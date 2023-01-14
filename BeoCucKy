@@ -1,0 +1,52 @@
+local cac = Instance.new('ScreenGui')
+cac.Parent = game.CoreGui
+
+local lon = Instance.new('TextLabel')
+lon.Parent = cac
+lon.BackgroundTransparency = 1
+lon.TextSize = 10
+lon.Text = 'Minh Beo Chi Biet Skid'
+lon.TextColor3 = Color3.fromRGB(82, 47, 7)
+lon.Size = UDim2.new(1,0,1,0)
+repeat wait(1) until game:IsLoaded()
+
+wait(1.1)
+
+game.StarterGui:SetCore("SendNotification", {
+    Icon = "";
+    Title = "MinhBeoBustSkiddddd", 
+    Text = "vo discord nay di beo https://discord.gg/dw6vjMX6"
+})
+
+wait(2.4)
+
+game.StarterGui:SetCore("SendNotification", {
+    Icon = "";
+    Title = "MinhBeoSkidddddd", 
+    Text = "vo le di beo https://discord.gg/dw6vjMX6"
+})
+
+-- Main
+local gui = loadstring(game:HttpGet("https://gitlab.com/0x45.xyz/droplib/-/raw/master/drop-minified.lua"))():Init(config,game.CoreGui)
+
+
+local lpg = gui:CreateCategory("MinhBeoBustSkiddd")
+
+lpg:CreateButton("Cuc Cuc Cuc Ky Ngonnnn Thunder Zet", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+end)
+lpg:CreateButton("Dung Dung Vi Rat Ngon??? Neva Hub",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2"))()
+end)
+lpg:CreateButton("Rat Gion` Hoho Hub",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))() 
+end)
+lpg:CreateButton("Cuc Ky Gion` Zen Hub",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader'))()
+end)
+lpg:CreateButton("table Hub Crack Zzz",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/AltsegoD/scripts/egoD/tablekhoc.lua'))()
+end)
+lpg:CreateButton("LonHub ( hay goi la g hub )",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/GGhostVN/GhostLord/main/Main'))()
+end)
+lpg:CreateButton("W-Adonis",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/MinhBeoVaiLon/MinhBeoTest/main/MinhBeoSource"))() 
+end)
+
+
+lpg:CreateButton("Cam On Adonis Voi ThamTuBeo",function() 
+end)
